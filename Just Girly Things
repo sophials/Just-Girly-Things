@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Girly Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fceff9; /* light pink */
+            color: #333; /* dark grey */
+        }
+
+        header {
+            background-color: #ff7eb9; /* pink */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            color: #fff; /* white */
+        }
+
+        nav {
+            background-color: #ff7eb9; /* pink */
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; /* white */
+            padding: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff; /* white */
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #ff7eb9; /* pink */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Girly Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#blog">Blog</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a fun-loving girl who enjoys trying new things and sharing all my experiences. Follow along as I explore
+            the world!</p>
+    </section>
+
+    <section id="blog">
+        <h2>My Blog</h2>
+        <h3>Latest Post</h3>
+        <h4>Title of the Latest Post</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae nunc sit amet justo tempor
+            consectetur. Etiam pulvinar convallis mi nec tristique.</p>
+        <a href="#">Read More</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a question or just want to say hello? Feel free to reach out to me!</p>
+        <p>Email: your@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Girly Blog</p>
+    </footer>
+
+</body>
+
+</html>
